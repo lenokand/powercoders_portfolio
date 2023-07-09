@@ -3,7 +3,7 @@ console.log($(".font-italic"))
 
 function hero(){
     $(".p2").typed({
-      strings: ["DESIGNER", "DEVELOPER", "CREATIVE"],
+      strings: ["DEVELOPER", "CREATIVE", "DESIGNER" ],
       typeSpeed: 50,
       backSpeed: 10,
       backDelay: 2000,

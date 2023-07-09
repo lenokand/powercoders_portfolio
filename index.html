@@ -51,25 +51,52 @@
         
       </div>
      
-      <img src="./assets/images/avatar.jpg" class="rounded-circle w-25 h-25 d-block mb-3 mb-md-0"  alt="Picture of me">
+      <img src="./assets/images/avatar.jpg" class="profil-img rounded-circle w-25 h-25 d-block mb-3 mb-md-0"  alt="Picture of me">
     </div>
    
   
 
-    <p class="font-italic">Olena :-)</p>
+    <p class="font-italic">Olena :-) </p>
+    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#contacts">
+      Watch the video
+    </button>
   </div>
-  <div class="container mt-5">
+  <div class="container mt-5 pt-5">
     <section class="hero">
       <div class="inner-text">
         <p class="p1">WEB</p>
         <p class="p2">DEVELOPER</p>
       </div>
-      <a class="hero-down" href="#this">
-        <div class="btn-react"></div>
-        <i class="fa fa-chevron-down"></i>
-      </a>
+      
     </section>
   </div>
+
+  
+<!-- Modal -->
+<div class="modal fade" id="contacts" tabindex="-1" role="dialog" aria-labelledby="contactsTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="contactsTitle">Video Message of Olena</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body ">
+        <div class="embed-responsive embed-responsive-16by9">
+          <video height="100%" src="/assets/OlenaAndriushchenko_Intro.mp4" controls ></video>
+        </div>
+
+      
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      
+      </div>
+    </div>
+  </div>
+</div>
+<!--End Modal -->
  
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>

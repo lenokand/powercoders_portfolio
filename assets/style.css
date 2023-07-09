@@ -21,7 +21,7 @@ body {
 .inner-text {
   position: relative;
   top: 50%;
-  transform: translateY(-50%);
+  transform: translateY(-65%);
   font-size: 30px;
 }
 @media only screen and (min-width: 320px) {
@@ -106,4 +106,8 @@ body {
   vertical-align: bottom;
   position: relative;
   top: 0.1em;
+}
+
+.profil-img {
+  border: 8px solid #212529;
 }/*# sourceMappingURL=style.css.map */
