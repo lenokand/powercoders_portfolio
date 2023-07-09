@@ -1,0 +1,11 @@
+/* @import url(../node_modules/bootstrap/scss/bootstrap.scss);
+@import url(../node_modules/bootstrap-icons/font/bootstrap-icons.scss); */
+body {
+  background-color: #fdfdfd;
+}
+
+@media screen and (max-width: 560px) {
+  .h1, h1, .title {
+    font-size: 1.8rem;
+  }
+}/*# sourceMappingURL=style.css.map */
