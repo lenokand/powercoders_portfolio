@@ -101,3 +101,12 @@ body{
   .profil-img{
     border: 8px solid #212529;
   }
+
+
+
+  @media screen and (max-width:578px) {
+    .card-group .card{
+      width: 100%!important;
+    }
+    
+  }
